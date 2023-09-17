@@ -1,0 +1,51 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+#board{
+    background-image: url("./image/background.jpg");
+}
+
+
+#canvas{
+    height: 875px;
+    width: 90%;
+    margin: auto;
+    background-image: url(image/background.jpg);
+    border: 1px solid black;
+    z-index: -1;
+}
+
+#bird{
+    position: absolute;
+    width: 50px;
+    height: 55px;
+    top: 50%;
+    left: 100px;
+    background-color: violet;
+}
+
+#bird img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pipe{
+    background-color: green;
+    height: 250px;
+    width: 100px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 5%;
+    left: 300px;
+}
+
+.obstacle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
